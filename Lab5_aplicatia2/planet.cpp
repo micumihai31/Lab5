@@ -37,8 +37,6 @@ void CALLBACK display()
 	glLoadIdentity();
 	glTranslatef(0.0, 0.0, -5.0);
 
-	glColor3f(1.0, 1.0, 1.0);
-
 	// Soarele
 	glColor3f(1.0, 1.0, 0.0); // galben
 	auxWireSphere(1.0);
