@@ -43,14 +43,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="dlls\glu32.dll">
+    <CopyFileToFolders Include="dlls\glu32.dll">
       <Filter>dlls</Filter>
-    </None>
-    <None Include="dlls\glut32.dll">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="dlls\glut32.dll">
       <Filter>dlls</Filter>
-    </None>
-    <None Include="dlls\opengl32.dll">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="dlls\opengl32.dll">
       <Filter>dlls</Filter>
-    </None>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>

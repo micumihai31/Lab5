@@ -130,9 +130,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="dlls\glu32.dll" />
-    <None Include="dlls\glut32.dll" />
-    <None Include="dlls\opengl32.dll" />
+    <CopyFileToFolders Include="dlls\glu32.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="dlls\glut32.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="dlls\opengl32.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GL.H" />

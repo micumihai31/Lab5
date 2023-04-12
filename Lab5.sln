@@ -9,26 +9,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab5_aplicatia2", "Lab5_apl
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21EC0573-EF41-46CA-8AAF-08511BED7C61}.Debug|x64.ActiveCfg = Debug|x64
-		{21EC0573-EF41-46CA-8AAF-08511BED7C61}.Debug|x64.Build.0 = Debug|x64
 		{21EC0573-EF41-46CA-8AAF-08511BED7C61}.Debug|x86.ActiveCfg = Debug|Win32
 		{21EC0573-EF41-46CA-8AAF-08511BED7C61}.Debug|x86.Build.0 = Debug|Win32
-		{21EC0573-EF41-46CA-8AAF-08511BED7C61}.Release|x64.ActiveCfg = Release|x64
-		{21EC0573-EF41-46CA-8AAF-08511BED7C61}.Release|x64.Build.0 = Release|x64
 		{21EC0573-EF41-46CA-8AAF-08511BED7C61}.Release|x86.ActiveCfg = Release|Win32
 		{21EC0573-EF41-46CA-8AAF-08511BED7C61}.Release|x86.Build.0 = Release|Win32
-		{23A670E9-D811-41B4-8FB7-AD2997175D9E}.Debug|x64.ActiveCfg = Debug|x64
-		{23A670E9-D811-41B4-8FB7-AD2997175D9E}.Debug|x64.Build.0 = Debug|x64
 		{23A670E9-D811-41B4-8FB7-AD2997175D9E}.Debug|x86.ActiveCfg = Debug|Win32
 		{23A670E9-D811-41B4-8FB7-AD2997175D9E}.Debug|x86.Build.0 = Debug|Win32
-		{23A670E9-D811-41B4-8FB7-AD2997175D9E}.Release|x64.ActiveCfg = Release|x64
-		{23A670E9-D811-41B4-8FB7-AD2997175D9E}.Release|x64.Build.0 = Release|x64
 		{23A670E9-D811-41B4-8FB7-AD2997175D9E}.Release|x86.ActiveCfg = Release|Win32
 		{23A670E9-D811-41B4-8FB7-AD2997175D9E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection

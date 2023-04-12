@@ -38,19 +38,17 @@ void CALLBACK display()
 
 	glColor3f(1.0, 1.0, 1.0);
 
-	glPushMatrix();
-
-	glTranslatef(-1.0, 0.0, 0.0);
+	float lungimeBrat = 2;
+	glTranslatef(-lungimeBrat / 2, 0.0, 0.0);
 	glRotatef((GLfloat)shoulder, 0.0, 0.0, 1.0);
-	glTranslatef(1.0, 0.0, 0.0);
-	auxWireBox(2.0, 0.4, 1.0);
+	glTranslatef(lungimeBrat / 2, 0.0, 0.0);
+	auxWireBox(lungimeBrat, 0.4, 1.0);
 
-	glTranslatef(1.0, 0.0, 0.0);
+	float lungimeAntebrat = 1.5;
+	glTranslatef(lungimeBrat / 2, 0.0, 0.0);
 	glRotatef((GLfloat)elbow, 0.0, 0.0, 1.0);
-	glTranslatef(1.0, 0.0, 0.0);
-	auxWireBox(2.0, 0.4, 1.0);
-
-	glPopMatrix();
+	glTranslatef(lungimeAntebrat / 2, 0.0, 0.0);
+	auxWireBox(lungimeAntebrat, 0.4, 1.0);
 
 	glFlush();
 }

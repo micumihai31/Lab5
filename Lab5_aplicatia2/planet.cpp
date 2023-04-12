@@ -1,6 +1,6 @@
 /*
  *  Programul arata cum se compun transformarile de rotatie si de translatie pentru desenarea obiectelor rotite sau translatate.
- *  Interactiune:  left, right, up, down
+ *  Interactiune: left, right, up, down
  */
 #include "glos.h"
 
@@ -38,18 +38,18 @@ void CALLBACK display()
 	glTranslatef(0.0, 0.0, -5.0);
 
 	glColor3f(1.0, 1.0, 1.0);
-	glPushMatrix();
 
-	// SOARELE
+	// Soarele
+	glColor3f(1.0, 1.0, 0.0); // galben
 	auxWireSphere(1.0);
 
-	// Pamantul
+	// Pamantul	
 	glRotatef((GLfloat)year, 0.0, 1.0, 0.0);
 	glTranslatef(2.0, 0.0, 0.0);
 	glRotatef((GLfloat)day, 0.0, 1.0, 0.0);
+	glColor3f(0.0, 0.0, 1.0); // albastru
 	auxWireSphere(0.2);
 
-	glPopMatrix();
 	glFlush();
 }
 
@@ -70,7 +70,7 @@ int main(int argc, char** argv)
 {
 	auxInitDisplayMode(AUX_SINGLE | AUX_RGB);
 	auxInitPosition(0, 0, 800, 600);
-	auxInitWindow("Composite Modeling Transformations");
+	auxInitWindow("Transformari compuse");
 	myInit();
 	auxKeyFunc(AUX_LEFT, yearSubtract);
 	auxKeyFunc(AUX_RIGHT, yearAdd);
